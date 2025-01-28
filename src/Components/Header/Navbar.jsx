@@ -46,8 +46,8 @@ const Navbar = () => {
       <nav className="navBar">
         <div className="logoLinkContainer">
           <div className="logoContainer">
-            <Link to="/" onClick={scrollToTop}>
-              <img src={logo} alt="Logo" />
+            <Link to="/" onClick={scrollToTop} style={{ textDecoration: 'none', color: 'black' }}>
+            <h1 style={{ textDecoration: 'none', color: 'black' }}>Vijay</h1>
             </Link>
           </div>
           <div className="linkContainer">
@@ -110,9 +110,10 @@ const Navbar = () => {
           ) : (
             <RiMenu2Line size={22} onClick={toggleMobileMenu} />
           )}
-          <div className="logoContainer">
+          <div className="logoContainer" style={{ textDecoration: 'none', color: 'black' }}>
             <Link to="/">
-              <img src={logo} alt="Logo" />
+              {/* <img src={logo} alt="Logo" /> */}
+              <h1 style={{ textDecoration: 'none', color: 'black' }}>Vijay</h1>
             </Link>
           </div>
           <Link to="/cart">

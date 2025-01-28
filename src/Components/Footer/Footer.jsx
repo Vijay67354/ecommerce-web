@@ -31,7 +31,7 @@ const Footer = () => {
         <div className="footer__container">
           <div className="footer_left">
             <div className="footer_logo_container">
-              <img src={logo} alt="" Z />
+            <h1 style={{ textDecoration: 'none', color: 'black' }}>Vijay</h1>
             </div>
 
             <p>1418 River Drive, Suite 35 Cottonhall, CA 9622 United States</p>
@@ -146,7 +146,7 @@ const Footer = () => {
               rel="noreferrer"
               style={{ color: "#C22928", textDecoration: "none" }}
             >
-              Shakti Tamrakar
+              vijay
             </a>{" "}
             with ❤️
           </p>
